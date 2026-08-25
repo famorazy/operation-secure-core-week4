@@ -1,0 +1,11 @@
+TEMPORARY LOCAL-LAB TRAINING RECORD
+
+scope=127.0.0.1 only
+authorization_code=REDACTED_SHA256_PREFIX_9489401c774da516
+authorize_status=302
+first_redemption_status=200
+first_redemption_body={'access_token': 'FAKE_LOCAL_TRAINING_TOKEN', 'expires_in': 60, 'token_type': 'Bearer'}
+replay_status=400
+replay_body={'error': 'invalid_grant', 'error_description': 'code already used'}
+expected_secure_result=second redemption rejected as invalid_grant
+The live code, verifier, and training token were not written to disk.
