@@ -9,3 +9,10 @@ replay_status=400
 replay_body={'error': 'invalid_grant', 'error_description': 'code already used'}
 expected_secure_result=second redemption rejected as invalid_grant
 The live code, verifier, and training token were not written to disk.
+OAuth authorization-code training evidence (localhost-only)
+Target: http://127.0.0.1:8000
+Authorization code: demo_kIOlee4d72R9akWa (fake, single-use)
+Initial token exchange: HTTP 200
+Replay with same code: HTTP 400 invalid_grant
+Proxy: mitmweb at 127.0.0.1:8080
+No real credentials or production tokens were used.

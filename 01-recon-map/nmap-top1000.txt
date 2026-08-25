@@ -1,0 +1,7 @@
+# Nmap 7.80 scan initiated Tue Aug 25 14:37:41 2026 as: nmap -Pn -sV --version-light --reason -T3 --top-ports 1000 -oN 01-recon-map/nmap-top1000.txt 192.168.56.100
+Nmap scan report for 192.168.56.100
+Host is up, received user-set (0.0067s latency).
+All 1000 scanned ports on 192.168.56.100 are closed because of 1000 conn-refused
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Aug 25 14:37:45 2026 -- 1 IP address (1 host up) scanned in 4.49 seconds
